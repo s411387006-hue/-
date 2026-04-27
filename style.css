@@ -8,11 +8,12 @@
 /* Global */
 body {
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
-  background: linear-gradient(#f8fafc, #eef2f7);
-  color: #0f172a;
+  background: linear-gradient(#f0fdf4, #ecfdf5);
+  color: #1b4332;
   line-height: 1.7;
 }
 
+/* Container */
 .container {
   width: 90%;
   max-width: 720px;
@@ -26,6 +27,14 @@ body {
   padding-top: 120px;
 }
 
+.hero-image {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-bottom: 16px;
+}
+
 .hero-name {
   font-size: 2.8rem;
   font-weight: 700;
@@ -34,13 +43,13 @@ body {
 .hero-tagline {
   margin-top: 16px;
   font-size: 1.3rem;
-  color: #475569;
+  color: #2d6a4f;
 }
 
 .hero-subtext {
   margin-top: 12px;
   font-size: 1rem;
-  color: #64748b;
+  color: #52796f;
   max-width: 500px;
   margin-left: auto;
   margin-right: auto;
@@ -50,6 +59,7 @@ body {
   margin-top: 28px;
 }
 
+/* Buttons */
 .btn {
   display: inline-block;
   padding: 12px 22px;
@@ -60,13 +70,13 @@ body {
 }
 
 .btn-primary {
-  background-color: #0284c7;
+  background-color: #2d6a4f;
   color: white;
 }
 
 .btn-secondary {
-  border: 1px solid #0284c7;
-  color: #0284c7;
+  border: 1px solid #2d6a4f;
+  color: #2d6a4f;
 }
 
 /* Section Titles */
@@ -82,7 +92,7 @@ body {
 /* Text */
 .about-text {
   margin-bottom: 16px;
-  color: #334155;
+  color: #344e41;
 }
 
 /* List */
@@ -93,16 +103,23 @@ body {
 
 .list li {
   margin-bottom: 8px;
-  color: #334155;
+  color: #344e41;
 }
 
 /* Projects */
 .project-card {
   padding: 16px;
-  border: 1px solid #e2e8f0;
+  border: 1px solid #d8f3dc;
   border-radius: 8px;
   margin-bottom: 16px;
   background-color: #ffffff;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.05);
+}
+
+.project-image {
+  width: 100%;
+  border-radius: 6px;
+  margin-bottom: 12px;
 }
 
 .project-card h3 {
@@ -111,12 +128,12 @@ body {
 
 .project-card p {
   margin-bottom: 6px;
-  color: #334155;
+  color: #344e41;
 }
 
 .project-card span {
   font-size: 0.9rem;
-  color: #64748b;
+  color: #52796f;
 }
 
 /* Contact */
@@ -127,11 +144,11 @@ body {
 .contact-item span {
   display: block;
   font-size: 0.85rem;
-  color: #64748b;
+  color: #52796f;
 }
 
 .contact-item a {
-  color: #0284c7;
+  color: #2d6a4f;
   text-decoration: none;
 }
 
