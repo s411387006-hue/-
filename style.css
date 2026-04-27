@@ -8,15 +8,8 @@
 /* Global */
 body {
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
-  background: 
-    linear-gradient(rgba(15, 23, 42, 0.9), rgba(15, 23, 42, 0.95)),
-    url('https://images.unsplash.com/photo-1501594907352-04cda38ebc29');
-    
-  background-size: cover;
-  background-position: center;
-  background-attachment: fixed;
-
-  color: #e2e8f0;
+  background: linear-gradient(#f8fafc, #eef2f7);
+  color: #0f172a;
   line-height: 1.7;
 }
 
@@ -41,7 +34,7 @@ body {
 .hero-tagline {
   margin-top: 16px;
   font-size: 1.3rem;
-  color: #94a3b8;
+  color: #475569;
 }
 
 .hero-subtext {
@@ -67,31 +60,63 @@ body {
 }
 
 .btn-primary {
-  background-color: #38bdf8;
-  color: #0f172a;
+  background-color: #0284c7;
+  color: white;
 }
 
 .btn-secondary {
-  border: 1px solid #38bdf8;
-  color: #38bdf8;
+  border: 1px solid #0284c7;
+  color: #0284c7;
 }
 
-/* About */
+/* Section Titles */
 .about h2,
+.skills h2,
+.courses h2,
+.projects h2,
 .contact h2 {
   font-size: 1.8rem;
   margin-bottom: 20px;
 }
 
+/* Text */
 .about-text {
   margin-bottom: 16px;
-  color: #cbd5f5;
+  color: #334155;
 }
 
-.about-skills {
+/* List */
+.list {
+  list-style: none;
   margin-top: 10px;
-  color: #94a3b8;
-  font-size: 0.95rem;
+}
+
+.list li {
+  margin-bottom: 8px;
+  color: #334155;
+}
+
+/* Projects */
+.project-card {
+  padding: 16px;
+  border: 1px solid #e2e8f0;
+  border-radius: 8px;
+  margin-bottom: 16px;
+  background-color: #ffffff;
+}
+
+.project-card h3 {
+  margin-bottom: 8px;
+}
+
+.project-card p {
+  margin-bottom: 6px;
+  color: #334155;
+}
+
+.project-card span {
+  font-size: 0.9rem;
+  color: #64748b;
 }
 
 /* Contact */
@@ -102,13 +127,12 @@ body {
 .contact-item span {
   display: block;
   font-size: 0.85rem;
-  color: #94a3b8;
+  color: #64748b;
 }
 
 .contact-item a {
-  color: #38bdf8;
+  color: #0284c7;
   text-decoration: none;
-  font-size: 1rem;
 }
 
 /* Responsive */
